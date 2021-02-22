@@ -4,7 +4,8 @@ import (
 	"testing"
 )
 
-// Compare the Triplets
+// A reviewer rates the two challenges,
+// awarding points on a scale from 1 to 100 for three categories: problem clarity, originality, and difficulty.
 func compareTriplets(a []int32, b []int32) []int32 {
 
 	var points []int32
