@@ -33,3 +33,21 @@ func TestCaseOne(t *testing.T) {
 		t.Errorf("Incorrect sum: %d, want: %d.", DiagonalDifference(arr), want)
 	}
 }
+
+func TestCaseTwo(t *testing.T) {
+	var arr = [][]int32{{1, 2, 3}, {4, 5, 6}, {9, 8, 9}}
+	var want = 2
+
+	if got := DiagonalDifference(arr); got != int32(want) {
+		t.Errorf("Incorrect sum: %d, want: %d.", DiagonalDifference(arr), want)
+	}
+}
+
+func TestCaseSmallerArray(t *testing.T) {
+	var arr = [][]int32{{6, 8}, {-6, 9}}
+	var want = 13
+
+	if got := DiagonalDifference(arr); got != int32(want) {
+		t.Errorf("Incorrect sum: %d, want: %d.", DiagonalDifference(arr), want)
+	}
+}
