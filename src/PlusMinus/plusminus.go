@@ -6,7 +6,7 @@ func main() {
 	plusMinus([]int32{-4, 3, -9, 0, 4, 1})
 }
 
-// Complete the plusMinus function below.
+// Calculate and print the ratio of positive, negative and zero elements in this array
 func plusMinus(arr []int32) {
 
 	var length = len(arr)
