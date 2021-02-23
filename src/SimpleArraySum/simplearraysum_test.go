@@ -7,20 +7,19 @@ import (
 func TestWithSingleInput(t *testing.T) {
 	// 6
 	var arr = []int32{6}
-	SimpleArraySum(arr)
+	var want = 6
 
-	if SimpleArraySum(arr) != 6 {
-		t.Errorf("Incorrect sum: %d, want: %d.", SimpleArraySum(arr), 6)
+	if got := SimpleArraySum(arr); got != int32(want) {
+		t.Errorf("Incorrect sum: %d, want: %d.", SimpleArraySum(arr), want)
 	}
 }
 
 func TestWithMultipleInput(t *testing.T) {
 	//1 2 3 4 10 11
 	var arr = []int32{1, 2, 3, 4, 10, 11}
-	SimpleArraySum(arr)
+	var want = 31
 
-	if SimpleArraySum(arr) != 31 {
-		t.Errorf("Incorrect sum: %d, want: %d.", SimpleArraySum(arr), 31)
+	if got := SimpleArraySum(arr); got != int32(want) {
+		t.Errorf("Incorrect sum: %d, want: %d.", SimpleArraySum(arr), want)
 	}
-
 }
