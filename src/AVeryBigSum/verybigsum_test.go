@@ -12,10 +12,6 @@ func TestWithSingleInput(t *testing.T) {
 	if got := VeryBigSum(arr); got != int64(want) {
 		t.Errorf("Incorrect sum: %d, want: %d.", VeryBigSum(arr), want)
 	}
-
-	if VeryBigSum(arr) != 5 {
-
-	}
 }
 
 func TestWithMultipleInput(t *testing.T) {
