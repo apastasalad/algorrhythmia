@@ -6,6 +6,8 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
+/java/lib/
 # Compiled class file
 *.class
 /out/
