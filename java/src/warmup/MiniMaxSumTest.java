@@ -1,8 +1,7 @@
 package warmup;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import warmup.MiniMaxSum;
 
 class MiniMaxSumTest {
 

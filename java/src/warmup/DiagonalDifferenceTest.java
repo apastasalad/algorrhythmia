@@ -2,6 +2,7 @@ package warmup;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import warmup.DiagonalDifference;
 
 import java.util.ArrayList;
 import java.util.Arrays;

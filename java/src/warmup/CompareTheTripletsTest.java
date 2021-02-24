@@ -2,6 +2,7 @@ package warmup;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import warmup.CompareTheTriplets;
 
 import java.util.Arrays;
 
