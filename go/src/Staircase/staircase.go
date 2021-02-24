@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	staircase(6)
+	staircase(9)
 
 }
 
