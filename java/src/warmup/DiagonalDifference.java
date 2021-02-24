@@ -17,8 +17,8 @@ public class DiagonalDifference {
     }
 
     // calculate the sum of the right 2 left diagonal
-    for (int i = 0; i < arr.size(); i++) {
-      right2left += arr.get(i).get(rightPos);
+    for (List<Integer> integers : arr) {
+      right2left += integers.get(rightPos);
       rightPos--;
     }
 

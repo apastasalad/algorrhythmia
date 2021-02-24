@@ -17,16 +17,16 @@ public class MiniMaxSum {
     BigInteger arraySum = BigInteger.valueOf(0L);
 
     // add the entire array together
-    for (int i = 0; i < arr.length; i++) {
-      arraySum = arraySum.add(BigInteger.valueOf(arr[i]));
+    for (int i : arr) {
+      arraySum = arraySum.add(BigInteger.valueOf(i));
     }
 
     // selectively remove numbers to test the min and max
-    for (int i = 0; i < arr.length; i++) {
-
-      currentSum = arraySum.subtract(BigInteger.valueOf(arr[i]));
+    for (int j : arr) {
+      currentSum = arraySum.subtract(BigInteger.valueOf(j));
       highestSum = highestSum.max(currentSum);
       lowestSum = lowestSum.min(currentSum);
+
     }
 
     // print the numbers.

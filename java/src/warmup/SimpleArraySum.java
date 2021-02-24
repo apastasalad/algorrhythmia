@@ -9,8 +9,8 @@ public class SimpleArraySum {
 
     int sumOfElements = 0;
 
-    for (int i = 0; i < ar.length; i++) {
-      sumOfElements += ar[i];
+    for (int i : ar) {
+      sumOfElements += i;
     }
 
     return sumOfElements;

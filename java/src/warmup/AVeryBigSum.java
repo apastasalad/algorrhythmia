@@ -8,9 +8,9 @@ public class AVeryBigSum {
 
     long result = 0;
 
-    for (int i = 0; i < ar.length; i++) {
+    for (long l : ar) {
 
-      result += ar[i];
+      result += l;
     }
 
     return result;
