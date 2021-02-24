@@ -7,7 +7,7 @@ public class Staircase {
 
         int spaceCounter = n - 1;
         int stepCounter = 1;
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
 
         for (int i = 0; i < n; i++) {
             // Print the spaces
