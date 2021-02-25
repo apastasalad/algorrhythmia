@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6fd07073-6198-433f-af55-514ac17e03d3" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.scratchpad" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementation/DivisibleSumPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementation/DivisibleSumPairsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implementation/MigratoryBirds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implementation/MigratoryBirdsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <recent name="implementation" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DivisibleSumPairsTest.divisibleSumPairsTestThree">
+  <component name="RunManager" selected="JUnit.MigratoryBirdsTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -119,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberLineHopsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MigratoryBirdsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorrhythmia" />
       <extension name="coverage">
         <pattern>
@@ -128,7 +128,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="implementation" />
-      <option name="MAIN_CLASS_NAME" value="implementation.NumberLineHopsTest" />
+      <option name="MAIN_CLASS_NAME" value="implementation.MigratoryBirdsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MigratoryBirdsTest" />
         <item itemvalue="JUnit.DivisibleSumPairsTest" />
         <item itemvalue="JUnit.DivisibleSumPairsTest.divisibleSumPairsTestThree" />
         <item itemvalue="JUnit.SubArrayDivisionTest" />
         <item itemvalue="JUnit.BreakingTheRecordsTest" />
-        <item itemvalue="JUnit.NumberLineHopsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +167,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614217490356</updated>
-      <workItem from="1614217491558" duration="13116000" />
+      <workItem from="1614217491558" duration="17139000" />
     </task>
     <task id="LOCAL-00001" summary="Update the Project">
       <created>1614217858298</created>
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614236393508</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add DivisibleSumPairs algorithm">
+      <created>1614241361691</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614241361691</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +249,8 @@
     <MESSAGE value="Add BetweentheSets algorithm.&#10;&#10;This one was super hard and makes me think i need to go back and study set theory!" />
     <MESSAGE value="Add the Breaking the Records Algorithm" />
     <MESSAGE value="Add SubArrayDivision Algorithm and Reformat code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add SubArrayDivision Algorithm and Reformat code" />
+    <MESSAGE value="Add DivisibleSumPairs algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DivisibleSumPairs algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
