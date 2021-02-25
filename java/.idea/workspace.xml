@@ -2,27 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fd07073-6198-433f-af55-514ac17e03d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementation/AppleAndOrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementation/AppleAndOrange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementation/AppleAndOrangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementation/AppleAndOrangeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/warmup/MiniMaxSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmup/MiniMaxSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/warmup/StaircaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmup/StaircaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implementation/NumberLineHops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/warmup/Staircase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmup/Staircase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1ox9hBXnpgqSOwQIoxt0C1qMfVR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,7 +40,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="algorrhythmia" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -69,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AppleAndOrangeTest" />
       </list>
     </recent_temporary>
@@ -81,8 +89,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614217490356</updated>
-      <workItem from="1614217491558" duration="276000" />
+      <workItem from="1614217491558" duration="2397000" />
     </task>
+    <task id="LOCAL-00001" summary="Update the Project">
+      <created>1614217858298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614217858299</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +114,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update the Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the Project" />
   </component>
 </project>

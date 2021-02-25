@@ -3,7 +3,7 @@ package warmup;
 public class Staircase {
 
   // Create a staircase
-  static void staircase(int n) {
+  public static void staircase(int n) {
 
     int spaceCounter = n - 1;
     int stepCounter = 1;
