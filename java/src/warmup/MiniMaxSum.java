@@ -1,7 +1,5 @@
 package warmup;
 
-import java.math.BigInteger;
-
 public class MiniMaxSum {
 
   // arr [1,3,5,7,9]
@@ -11,21 +9,21 @@ public class MiniMaxSum {
 
     // keep track of the highest and lowest seen
     // this is ugly, but I do not know how to deal with the equivalent of Integer.MAX_VALUE
-    BigInteger lowestSum = BigInteger.valueOf(9999999999L);
-    BigInteger highestSum = BigInteger.valueOf(0L);
-    BigInteger currentSum;
-    BigInteger arraySum = BigInteger.valueOf(0L);
+    long lowestSum = Long.MAX_VALUE;
+    long highestSum = 0L;
+    long currentSum;
+    long arraySum = 0L;
 
     // add the entire array together
     for (int i : arr) {
-      arraySum = arraySum.add(BigInteger.valueOf(i));
+      arraySum += i;
     }
 
     // selectively remove numbers to test the min and max
     for (int j : arr) {
-      currentSum = arraySum.subtract(BigInteger.valueOf(j));
-      highestSum = highestSum.max(currentSum);
-      lowestSum = lowestSum.min(currentSum);
+      currentSum = arraySum - j;
+      highestSum = Long.max(highestSum, currentSum);
+      lowestSum = Long.min(lowestSum, currentSum);
 
     }
 
