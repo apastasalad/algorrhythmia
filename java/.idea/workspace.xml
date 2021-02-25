@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fd07073-6198-433f-af55-514ac17e03d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/implementation/BetweenTheSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implementation/BreakingTheRecords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implementation/BreakingTheRecordsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -51,7 +52,7 @@
       <recent name="implementation" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumberLineHopsTest">
+  <component name="RunManager" selected="JUnit.BreakingTheRecordsTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="algorrhythmia" />
@@ -80,6 +81,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="implementation" />
       <option name="MAIN_CLASS_NAME" value="implementation.AppleAndOrangeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreakingTheRecordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorrhythmia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementation" />
+      <option name="MAIN_CLASS_NAME" value="implementation.BreakingTheRecordsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BreakingTheRecordsTest" />
         <item itemvalue="JUnit.NumberLineHopsTest" />
         <item itemvalue="JUnit.NumberLineHopsTest.kangarooTestOne" />
         <item itemvalue="Application.Main" />
@@ -133,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614217490356</updated>
-      <workItem from="1614217491558" duration="4901000" />
+      <workItem from="1614217491558" duration="5873000" />
     </task>
     <task id="LOCAL-00001" summary="Update the Project">
       <created>1614217858298</created>
@@ -163,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614228739872</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add BetweentheSets algorithm.&#10;&#10;This one was super hard and makes me think i need to go back and study set theory!">
+      <created>1614232111555</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614232111555</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +208,7 @@
     <MESSAGE value="Update the Project" />
     <MESSAGE value="Add the kangaroo algorithm" />
     <MESSAGE value="Update the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the project" />
+    <MESSAGE value="Add BetweentheSets algorithm.&#10;&#10;This one was super hard and makes me think i need to go back and study set theory!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add BetweentheSets algorithm.&#10;&#10;This one was super hard and makes me think i need to go back and study set theory!" />
   </component>
 </project>
