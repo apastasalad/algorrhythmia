@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6fd07073-6198-433f-af55-514ac17e03d3" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.scratchpad" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementation/MigratoryBirds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementation/MigratoryBirdsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementation/MigratoryBirdsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementation/MigratoryBirdsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614217490356</updated>
-      <workItem from="1614217491558" duration="17139000" />
+      <workItem from="1614217491558" duration="17248000" />
     </task>
     <task id="LOCAL-00001" summary="Update the Project">
       <created>1614217858298</created>
@@ -225,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614241361691</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add MigratoryBirds Algorithm">
+      <created>1614250069465</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614250069465</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +255,8 @@
     <MESSAGE value="Add the Breaking the Records Algorithm" />
     <MESSAGE value="Add SubArrayDivision Algorithm and Reformat code" />
     <MESSAGE value="Add DivisibleSumPairs algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add DivisibleSumPairs algorithm" />
+    <MESSAGE value="Add MigratoryBirds Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MigratoryBirds Algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
