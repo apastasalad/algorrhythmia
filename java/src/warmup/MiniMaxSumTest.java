@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 
 class MiniMaxSumTest {
 
+  // TODO This is not a good test
+
   @Test
   void miniMaxSumTest1() {
     int[] testArray = {1, 3, 5, 7, 9};
