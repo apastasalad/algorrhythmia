@@ -3,8 +3,8 @@ package implementation;
 public class BreakingTheRecords {
 
   /**
-   * Count the number of times we break a record. The first score doesn't count towards a
-   * record breaking entry, but creates a baseline instead.
+   * Count the number of times we break a record. The first score doesn't count towards a record
+   * breaking entry, but creates a baseline instead.
    */
   static int[] breakingRecords(int[] scores) {
 

@@ -28,7 +28,8 @@ public class BetweenTheSets {
 
     /* Count the number of multiples of the LCM, which are factors of the GCD. */
     int count = 0;
-    for (int i = lowestCommonMultiple, j = 1; i <= greatestCommonDivisor; i = j * lowestCommonMultiple) {
+    for (int i = lowestCommonMultiple, j = 1; i <= greatestCommonDivisor;
+        i = j * lowestCommonMultiple) {
       if (greatestCommonDivisor % i == 0) {
         count++;
       }

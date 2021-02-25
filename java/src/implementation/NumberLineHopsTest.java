@@ -8,7 +8,7 @@ class NumberLineHopsTest {
   @Test
   void kangarooTestOne() {
     String want = "YES";
-    String got = NumberLineHops.kangaroo(0,3,4,2);
+    String got = NumberLineHops.kangaroo(0, 3, 4, 2);
 
     Assertions.assertEquals(want, got);
 

@@ -3,11 +3,13 @@ package implementation;
 public class AppleAndOrange {
 
 
-  /** are there oranges on the house? */
+  /**
+   * are there oranges on the house?
+   */
   static void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges) {
     // Print the result
-    System.out.println(howManyApplesOnDaHouse(s,t,a,apples));
-    System.out.println(howManyOrangesOnDaHouse(s, t, b,oranges));
+    System.out.println(howManyApplesOnDaHouse(s, t, a, apples));
+    System.out.println(howManyOrangesOnDaHouse(s, t, b, oranges));
   }
 
   /**
@@ -30,7 +32,7 @@ public class AppleAndOrange {
   }
 
   static int howManyOrangesOnDaHouse(int s, int t, int b, int[] oranges) {
-    int orangesOnDaHouse =0;
+    int orangesOnDaHouse = 0;
 
     for (int orange : oranges) {
       int orangeCoord = b + orange;

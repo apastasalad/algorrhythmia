@@ -2,7 +2,9 @@ package implementation;
 
 public class NumberLineHops {
 
-  /** Will the Kangaroos ever meet? */
+  /**
+   * Will the Kangaroos ever meet?
+   */
   static String kangaroo(int x1, int v1, int x2, int v2) {
 
     int kangaroo1pos = x1;
