@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fd07073-6198-433f-af55-514ac17e03d3" name="Default Changelist" comment="">
+    <list default="true" id="6fd07073-6198-433f-af55-514ac17e03d3" name="Default Changelist" comment="Add the DayOfTheProgrammer algorithm">
       <change afterPath="$PROJECT_DIR$/.scratchpad" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementation/MigratoryBirdsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementation/MigratoryBirdsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +59,8 @@
       <recent name="implementation" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MigratoryBirdsTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BreakingTheRecordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DayOfTheProgrammerTest">
+    <configuration name="DayOfTheProgrammerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorrhythmia" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +69,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="implementation" />
-      <option name="MAIN_CLASS_NAME" value="implementation.BreakingTheRecordsTest" />
+      <option name="MAIN_CLASS_NAME" value="implementation.DayOfTheProgrammerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DayOfTheProgrammerTest" />
         <item itemvalue="JUnit.MigratoryBirdsTest" />
         <item itemvalue="JUnit.DivisibleSumPairsTest" />
         <item itemvalue="JUnit.DivisibleSumPairsTest.divisibleSumPairsTestThree" />
         <item itemvalue="JUnit.SubArrayDivisionTest" />
-        <item itemvalue="JUnit.BreakingTheRecordsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614217490356</updated>
-      <workItem from="1614217491558" duration="17248000" />
+      <workItem from="1614217491558" duration="19507000" />
     </task>
     <task id="LOCAL-00001" summary="Update the Project">
       <created>1614217858298</created>
@@ -230,7 +219,28 @@
       <option name="project" value="LOCAL" />
       <updated>1614250069465</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Reformate code">
+      <created>1614250188001</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614250188001</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Reformate code">
+      <created>1614250207304</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614250207304</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add the DayOfTheProgrammer algorithm">
+      <created>1614252598711</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1614252598711</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,14 +266,16 @@
     <MESSAGE value="Add SubArrayDivision Algorithm and Reformat code" />
     <MESSAGE value="Add DivisibleSumPairs algorithm" />
     <MESSAGE value="Add MigratoryBirds Algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add MigratoryBirds Algorithm" />
+    <MESSAGE value="Reformate code" />
+    <MESSAGE value="Add the DayOfTheProgrammer algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the DayOfTheProgrammer algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/implementation/DivisibleSumPairsTest.java</url>
-          <line>34</line>
+          <line>36</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
