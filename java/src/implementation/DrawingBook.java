@@ -2,6 +2,9 @@ package implementation;
 
 public class DrawingBook {
 
+  /**
+   * Count the number of pages turns
+   */
   static int pageCount(int n, int p) {
 
     int totalPageTurnCountFromFront = n / 2;
