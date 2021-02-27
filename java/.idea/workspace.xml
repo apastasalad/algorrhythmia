@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fd07073-6198-433f-af55-514ac17e03d3" name="Default Changelist" comment="Add the DayOfTheProgrammer algorithm">
+    <list default="true" id="6fd07073-6198-433f-af55-514ac17e03d3" name="Default Changelist" comment="Add the Bill Division Algorithm">
       <change afterPath="$PROJECT_DIR$/.scratchpad" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementation/SalesByMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementation/SalesByMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,18 @@
       <recent name="implementation" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DayOfTheProgrammerTest">
+  <component name="RunManager" selected="JUnit.SalesByMatchTest.sockMerchantTestOne">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DayOfTheProgrammerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorrhythmia" />
       <extension name="coverage">
@@ -121,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArrayDivisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SalesByMatchTest.sockMerchantTestOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorrhythmia" />
       <extension name="coverage">
         <pattern>
@@ -130,19 +142,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="implementation" />
-      <option name="MAIN_CLASS_NAME" value="implementation.SubArrayDivisionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="implementation.SalesByMatchTest" />
+      <option name="METHOD_NAME" value="sockMerchantTestOne" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesByMatchTest.sockMerchantTestOne" />
         <item itemvalue="JUnit.DayOfTheProgrammerTest" />
         <item itemvalue="JUnit.MigratoryBirdsTest" />
         <item itemvalue="JUnit.DivisibleSumPairsTest" />
         <item itemvalue="JUnit.DivisibleSumPairsTest.divisibleSumPairsTestThree" />
-        <item itemvalue="JUnit.SubArrayDivisionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +168,8 @@
       <option name="presentableId" value="Default" />
       <updated>1614217490356</updated>
       <workItem from="1614217491558" duration="19507000" />
+      <workItem from="1614328732233" duration="290000" />
+      <workItem from="1614398397076" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="Update the Project">
       <created>1614217858298</created>
@@ -240,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614252598711</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add the Bill Division Algorithm">
+      <created>1614328853372</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614328853372</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Initial commit SalesByMatch algorithm">
+      <created>1614399842296</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1614399842296</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +285,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update the Project" />
@@ -268,7 +298,9 @@
     <MESSAGE value="Add MigratoryBirds Algorithm" />
     <MESSAGE value="Reformate code" />
     <MESSAGE value="Add the DayOfTheProgrammer algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the DayOfTheProgrammer algorithm" />
+    <MESSAGE value="Add the Bill Division Algorithm" />
+    <MESSAGE value="Initial commit SalesByMatch algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit SalesByMatch algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -277,6 +309,11 @@
           <url>file://$PROJECT_DIR$/src/implementation/DivisibleSumPairsTest.java</url>
           <line>36</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/implementation/SalesByMatch.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
