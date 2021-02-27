@@ -13,4 +13,13 @@ class SalesByMatchTest {
 
     Assertions.assertEquals(want, got);
   }
+
+  @Test
+  void sockMerchantTestTwo() {
+    int[] testArray = {1, 1, 3, 1, 2, 1, 3, 3, 3, 3};
+    int want = 4;
+    int got = SalesByMatch.sockMerchant(testArray.length, testArray);
+
+    Assertions.assertEquals(want, got);
+  }
 }

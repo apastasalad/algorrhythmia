@@ -60,7 +60,7 @@
       <recent name="implementation" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SalesByMatchTest.sockMerchantTestOne">
+  <component name="RunManager" selected="JUnit.SalesByMatchTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -102,22 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivisibleSumPairsTest.divisibleSumPairsTestThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorrhythmia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="implementation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="implementation" />
-      <option name="MAIN_CLASS_NAME" value="implementation.DivisibleSumPairsTest" />
-      <option name="METHOD_NAME" value="divisibleSumPairsTestThree" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MigratoryBirdsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorrhythmia" />
       <extension name="coverage">
@@ -128,6 +112,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="implementation" />
       <option name="MAIN_CLASS_NAME" value="implementation.MigratoryBirdsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesByMatchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorrhythmia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementation" />
+      <option name="MAIN_CLASS_NAME" value="implementation.SalesByMatchTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesByMatchTest" />
         <item itemvalue="JUnit.SalesByMatchTest.sockMerchantTestOne" />
         <item itemvalue="JUnit.DayOfTheProgrammerTest" />
         <item itemvalue="JUnit.MigratoryBirdsTest" />
         <item itemvalue="JUnit.DivisibleSumPairsTest" />
-        <item itemvalue="JUnit.DivisibleSumPairsTest.divisibleSumPairsTestThree" />
       </list>
     </recent_temporary>
   </component>
