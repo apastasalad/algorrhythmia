@@ -1,5 +1,6 @@
 package implementation;
 
+import java.util.Collections;
 import java.util.List;
 
 public class PickingNumbers {
@@ -10,16 +11,23 @@ public class PickingNumbers {
    */
   public static int pickingNumbers(List<Integer> a) {
 
-    int[] frequency = new int[101];
-    int result = Integer.MIN_VALUE;
+    Collections.sort(a);
+    int subArrayCount = 0;
+    int maxLength = 0;
 
-    for (int index : a) {
-      frequency[index]++;
+    // Look for the maximum length
+    for (int i = 0; i < a.size(); i++) {
+      for (int j = i; j < a.size(); j++) {
+        if (Math.abs(a.get(j) - a.get(i)) <= 1) {
+          subArrayCount++;
+        }
+      }
+      // if this is the longest chain, then record it.
+      if (subArrayCount > maxLength) {
+        maxLength = subArrayCount;
+      }
+      subArrayCount = 0;
     }
-
-    for (int i = 1; i <= 100; i++) {
-      result = Math.max(result, frequency[i] + frequency[i - 1]);
-    }
-    return result;
+    return maxLength;
   }
 }
