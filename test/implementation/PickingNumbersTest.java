@@ -21,4 +21,12 @@ class PickingNumbersTest {
     int got = PickingNumbers.pickingNumbers(Arrays.asList(testArray));
     Assertions.assertEquals(want, got);
   }
+
+  @Test
+  void pickingNumbersTestThree() {
+    Integer[] testArray = {98, 3, 99, 1, 97, 2};
+    int want = 2;
+    int got = PickingNumbers.pickingNumbers(Arrays.asList(testArray));
+    Assertions.assertEquals(want, got);
+  }
 }

@@ -9,7 +9,7 @@ class CatsAndAMouseTest {
   void catAndMouseTestOne() {
 
     String want = "Cat B";
-    String got = CatsAndAMouse.catAndMouse(1,2,3);
+    String got = CatsAndAMouse.catAndMouse(1, 2, 3);
 
     Assertions.assertEquals(want, got);
   }
@@ -18,7 +18,7 @@ class CatsAndAMouseTest {
   void catAndMouseTestTwo() {
 
     String want = "Mouse C";
-    String got = CatsAndAMouse.catAndMouse(1,3,2);
+    String got = CatsAndAMouse.catAndMouse(1, 3, 2);
 
     Assertions.assertEquals(want, got);
   }

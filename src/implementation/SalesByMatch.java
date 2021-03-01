@@ -24,7 +24,7 @@ public class SalesByMatch {
 
     // Count the pairs only
     for (Integer sock : sockMap.keySet()) {
-      result+= sockMap.get(sock) / 2;
+      result += sockMap.get(sock) / 2;
     }
 
     // Return the number of pairs

@@ -11,7 +11,7 @@ public class ElectronicsShop {
    */
   static int getMoneySpent(int[] keyboards, int[] drives, int b) {
 
-    List <Integer> combinations = new ArrayList<>();
+    List<Integer> combinations = new ArrayList<>();
 
     // populate all the purchase combinations with their combined cost;
     for (int keyboard : keyboards) {
