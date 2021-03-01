@@ -1,3 +1,0 @@
-    System.out.println("Please enter a number of stairs");
-    Scanner sc = new Scanner(System.in);
-    int numberOfSteps = sc.nextInt();
