@@ -17,4 +17,14 @@ class LeaderBoardTest {
 
     Assertions.assertEquals(want, got);
   }
+
+  @Test
+  void climbingLeaderboardTestTwo() {
+    Integer[] testRanks = {100, 90, 90, 80, 75, 60};
+    Integer[] scores = {50, 65, 77, 90, 102};
+    List<Integer> want = Arrays.asList(6, 5, 4, 2, 1);
+    List<Integer> got = LeaderBoard.climbingLeaderboard(Arrays.asList(testRanks), Arrays.asList(scores));
+
+    Assertions.assertEquals(want, got);
+  }
 }
