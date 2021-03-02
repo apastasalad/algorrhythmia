@@ -12,8 +12,8 @@ public class TheHurdleRace {
       if (hurdleHeight > jumpHeight) {
         // how many potions to take?
         int takeSomePotion = hurdleHeight - jumpHeight;
-        potionCounter+= takeSomePotion;
-        jumpHeight+= takeSomePotion;
+        potionCounter += takeSomePotion;
+        jumpHeight += takeSomePotion;
       }
     }
 
