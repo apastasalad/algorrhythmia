@@ -2,8 +2,7 @@ package implementation;
 
 public class BeautifulDays {
 
-
-  // Complete the beautifulDays function below.
+  // Is today a beautiful day?
   static int beautifulDays(int i, int j, int k) {
 
     int reversedDay;
