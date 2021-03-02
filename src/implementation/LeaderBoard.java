@@ -28,7 +28,7 @@ public class LeaderBoard {
 
       // Element 0 is a special case. Is the player rank 1?
       // if yes, then break
-      if (rankedLeaderBoard[0] == player.get(i)) {
+      if (rankedLeaderBoard[0].equals(player.get(i))) {
         results.add(1);
       } else {
         // Inspect all the remaining scores and allocate ranks starting from element 1
@@ -40,7 +40,7 @@ public class LeaderBoard {
           }
 
           // is this a rank we care about?
-          if ((rankedLeaderBoard[j] == player.get(i)) && !found) {
+          if ((rankedLeaderBoard[j].equals(player.get(i))) && !found) {
             results.add(rankCounter);
             found = true;
           }
