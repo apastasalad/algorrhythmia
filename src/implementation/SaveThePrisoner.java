@@ -7,19 +7,6 @@ public class SaveThePrisoner {
    */
   static int saveThePrisoner(int numberOfPrisoners, int numberOfSweets, int startingSeat) {
 
-    int seatCounter = startingSeat;
-
-    // distribute the candy
-    for (int i = 1; i < numberOfSweets; i++) {
-
-      // once we arrive at the highest number chair, begin again
-      if (seatCounter + 1 > numberOfPrisoners) {
-        seatCounter = 1;
-      } else {
-        seatCounter++;
-      }
-    }
-
-    return seatCounter;
+    return ((numberOfSweets - 1) + (startingSeat - 1)) % numberOfPrisoners + 1;
   }
 }
