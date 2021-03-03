@@ -1,7 +1,5 @@
 package implementation;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class CircularArrayRotation {
 
@@ -10,16 +8,16 @@ public class CircularArrayRotation {
    */
   static int[] circularArrayRotation(int[] a, int k, int[] queries) {
 
-    int[] results = new int[queries.length];
+    int[] tempArray = new int[a.length];
 
-    // If we are rotating the array the same number as the number of elements, then there is
-    // no change to the array
-    if (k == a.length) {
-      for (int i : queries) {
-        results[i] = a[i];
-      }
+    for (int i = 0; i < a.length; i++) {
+      tempArray[(i + k) % a.length] = a[i];
     }
 
-    return results;
+    for (int i = 0; i < queries.length; i++) {
+      queries[i] = tempArray[queries[i]];
+    }
+
+    return queries;
   }
 }
