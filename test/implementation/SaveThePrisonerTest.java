@@ -20,4 +20,20 @@ class SaveThePrisonerTest {
 
     Assertions.assertEquals(want, got);
   }
+
+  @Test
+  void saveThePrisonerTestThree() {
+    int want = 6;
+    int got = SaveThePrisoner.saveThePrisoner(7, 19, 2);
+
+    Assertions.assertEquals(want, got);
+  }
+
+  @Test
+  void saveThePrisonerTestFour() {
+    int want = 3;
+    int got = SaveThePrisoner.saveThePrisoner(3, 7, 3);
+
+    Assertions.assertEquals(want, got);
+  }
 }
