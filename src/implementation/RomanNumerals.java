@@ -10,6 +10,7 @@ import java.util.regex.Pattern;
  */
 public class RomanNumerals {
 
+  // https://www.oreilly.com/library/view/regular-expressions-cookbook/9780596802837/ch06s09.html
   private static final Pattern ROMAN = Pattern.compile("^(?=[MDCLXVI])M*(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$");
 
   static boolean isRomanNumeral(String s) {
