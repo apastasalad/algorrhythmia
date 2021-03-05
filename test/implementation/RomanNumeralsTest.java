@@ -11,6 +11,7 @@ class RomanNumeralsTest {
     Assertions.assertTrue(got);
   }
 
+  @Test
   void isRomanNumeralTestTwo() {
     boolean got = RomanNumerals.isRomanNumeral("XVIC");
     Assertions.assertFalse(got);
