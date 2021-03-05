@@ -1,8 +1,5 @@
 package implementation;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class AppendAndDelete {
 
   // Complete the appendAndDelete function below.
@@ -13,8 +10,7 @@ public class AppendAndDelete {
       return "Yes";
     }
 
-    // find the largest substring, index will represent the
-    // first non-matching character
+    // locate the first character where the substring does not patch.
     int i = 0;
     for (; i < s.length() && i < t.length(); i++) {
       if (s.charAt(i) != t.charAt(i)) {
@@ -22,10 +18,15 @@ public class AppendAndDelete {
       }
     }
 
-    // the minimum number of items to delete and append
-    //
-    int operations = (s.length() - i) + (t.length() - i);
-    if ((k == operations)) {
+    // calculate the minimum operations required.
+    int minimumMoves;
+    if (k % 2 == (s.length() + t.length()) % 2) {
+      minimumMoves = (s.length() - i) + (t.length() - i);
+    } else {
+      minimumMoves = s.length() + t.length() + 1;
+    }
+
+    if (minimumMoves <= k) {
       return "Yes";
     } else {
       return "No";
